@@ -1,0 +1,48 @@
+.backButton {
+    border: none;
+    background-color: var(--blue);
+    padding: 0.5rem 1.25rem 0.5rem 1rem;
+    border: 1px solid var(--blue);
+    border-radius: 3px;
+    transition: ease-in-out 0.15s;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+}
+.backButton svg {
+    margin-right: 0.3rem;
+    stroke-width: 1px;
+}
+.backButton:hover {
+    background-color: transparent;
+    color: var(--blue);
+}
+
+.tipCodeContent {
+    background-color: white;
+    margin: 0.5rem 0 2rem 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    --blue: #4979ff;
+}
+.copyText {
+    align-self: end;
+    justify-self: end;
+}
+.tipCodeContent .button {
+    padding: 0.5rem 1.25rem 0.5rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px 0 0 0;
+    background-color: var(--blue);
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.15s;
+}
+.tipCodeContent button:hover {
+    background-color: #d3d3d3;
+}

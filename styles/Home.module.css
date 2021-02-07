@@ -1,0 +1,85 @@
+.contentHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contentHeader form {
+    margin: 0 10px;
+}
+
+.contentHeader form svg {
+    color: #cacaca;
+}
+
+.contentHeader form label {
+    display: flex;
+    align-items: center;
+}
+
+.contentHeader form input {
+    max-width: 100px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin-bottom: -7px;
+    font-family: 'Nunito';
+}
+
+.contentHeader form input::placeholder {
+    opacity: 0.6;
+}
+
+.title {
+    color: #333;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.text {
+    color: #777;
+}
+.btn {
+    display: block;
+    width: 150px;
+    padding: 8px 0;
+    margin: 20px auto;
+    background: #4979ff;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+}
+.single {
+    padding: 2px 30px;
+    background: #fff;
+    display: block;
+    margin: 15px 10px;
+    /* border-left: 8px solid #fff; */
+    position: relative;
+}
+.single:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20px;
+    background-color: #4979ff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: ease-out 0.15s;
+}
+.single:hover:before {
+    transform: scaleX(1);
+}
+
+.tipslist a {
+    display: flex;
+    align-items: center;
+}
+
+.tipslist svg {
+    margin-right: 10px;
+    font-size: 1.25rem;
+    opacity: 0.6;
+}
