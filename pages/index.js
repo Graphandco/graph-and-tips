@@ -5,9 +5,7 @@ import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 import { FaCss3Alt } from 'react-icons/Fa';
-import { SiPrestashop } from 'react-icons/Si';
-import { SiJavascript } from 'react-icons/Si';
-import { SiPhp } from 'react-icons/Si';
+import { SiPrestashop, SiJavascript, SiPhp } from 'react-icons/Si';
 import { BsSearch } from 'react-icons/Bs';
 
 export const getStaticProps = async () => {
